@@ -3,6 +3,7 @@ package linkedlists;
 import java.util.LinkedList;
 public class LkLst1 {
     public static void main(String[] args) {
+        
         LinkedList<Integer> list=new LinkedList<>();
 
         list.offer(10);
@@ -23,8 +24,6 @@ public class LkLst1 {
         System.out.println(list.peekLast());
 
         System.out.println(list);
-
-
 
     }
 }
